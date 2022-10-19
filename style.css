@@ -1,0 +1,410 @@
+.body{
+    padding: 0;
+    text-align: center;
+}
+span{
+    text-decoration: underline;
+}
+nav{
+    padding: 1em 3em 1em 3em;
+    position: sticky;
+    top: 0em;
+    background-color: #00aab38f;
+    padding: 1em;
+
+}
+.NavLinks{
+    text-decoration: none;
+    float: right;
+    color: white;
+    padding: 0 1em;
+    
+}
+.WebName{
+    width: 2em;
+}
+.container1{
+    background-color: #00aab38f;
+    padding: 2em;
+
+}
+.cloud1{
+    width: 15em;
+    float: right;
+    display: block;
+    position: absolute;
+    right: 20em;
+    top: 2.5em;
+}
+.MyName{
+    text-align: center;
+    position: absolute;
+    top: 18em;
+    left: 40%;
+}
+.cloud2{
+    width: 15em;
+    float: left;
+    position: absolute;
+    left:20em ;
+    top: 22em;
+}
+.MyHill{
+    width: 30em;
+    margin-top: 20em;
+}
+.MyImage{
+    width: 15em;
+}
+.intro{
+    background-color: rgba(240, 248, 255, 0.719);
+    padding: 3em;
+}
+.MySkills1,.MySkills2,.Contact{
+    background-color:  rgba(240, 248, 255, 0.719);
+    padding: 5em 30em 5em 30em;
+    text-align: left;
+}
+.FrontEnd{
+    width: 10em;
+    float: left;
+    margin: 1em;
+}
+.BackEnd{
+    width: 10em;
+    float: right;
+    margin: 1em;
+}
+.Contact{
+    background-color: rgba(127, 255, 212, 0.062);
+}
+footer{
+    background-color: #00aab38f;
+    padding: 10em;
+}
+footer a{
+    text-decoration: none;
+    padding: 0 1em;
+    color:#d2f0f1 ;
+}
+footer a:hover{
+    color: white;
+}
+footer p{
+    font-family: monospace;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+h1{
+    font-family: 'Alkalami', serif;
+    font-weight: bolder;
+    font-size: 4.5em;
+}
+h3{
+    font-family: 'Alkalami', serif;
+    font-family: 'Ubuntu', sans-serif;
+    color:#00aab3da ;
+    font-size: 2.5em;
+}
+p{
+    font-family: 'Alkalami', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.intro h3{
+    margin: 0 0 2em 0;
+}
+.MySkills1 p{
+    padding: 2em;
+    margin: 0 3em;
+}
+.MySkills1 h3{
+    margin:0 0 3em 0;
+}
+.MySkills1 h2{
+    color:#00aab3a1 ;
+}
+.MySkills2 h2{
+    color: #00aab3a1;
+}
+.dots{
+    text-align: center;
+    color:#00aab336 ;
+}
+.Contact h3{
+    margin: 0 0 2em 0;
+
+}
+h4{
+    font-family: 'Alkalami', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+button{
+    margin-top: 1em;
+    background-color:#00aab3a1 ;
+    border: solid 1px white;
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+    color: white;
+}
+button:hover{
+    margin-top: 1em;
+    background-color:#00aab35e ;
+    border: solid 3px white;
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+    color: black;
+}
+.uparrow{
+    font-size: 2.5em;
+    float: right;
+}
+footer i p{
+    font-size: 0.3em;
+}
+footer a i{
+    color: rgba(0, 0, 0, 0.425);
+}
+
+
+.contactbody{
+    text-align: center;
+    background-color: whitesmoke;
+}
+table{
+    font-family: 'Alkalami', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 3em auto;
+    text-align: left;
+    border-radius: 10px;
+}
+input,textarea{
+    border-color: rgba(116, 111, 111, 0.137);
+    border-radius: 5px;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.226);
+}
+.sendmail{
+    margin-top: 1em;
+    background-color:#00aab3a1 ;
+    border: solid 1px white;
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+    color: white;
+    margin-bottom: 3em;
+}
+.sendmail:hover{
+    margin-top: 1em;
+    background-color:#00aab35e ;
+    border: solid 3px white;
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+    color: black;
+}
+.myc{
+    background-color: rgba(245, 222, 179, 0.048);
+    padding: 3em;
+}
+#mail{
+    text-decoration: none;
+    color:#00aab3;
+}
+#mail:hover{
+    color:black;
+
+}
+@media screen and (max-width:1700px) {
+    textarea{
+        width: 15.2rem;
+    }
+    footer{
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 550px) {
+    input,textarea{
+        width: 10em;
+
+    }
+    .contactbody{
+        margin: 3px;
+        font-size: small;
+    }
+    footer{
+        align-items: center;
+        padding: 1em;
+        margin: 0px;
+    }
+    .uparrow{
+        font-size: 1em;
+        float: right;
+    }
+    .WebName{
+        width: 1.5em;
+    }
+    footer{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:1510px) {
+    .body{
+        align-items: center;
+    }
+    .MySkills1,.MySkills2,.Contact{
+        padding: 5em 10em 5em 10em;
+    }
+}
+@media screen and (max-width:970px) {
+    .body{
+        align-items: center;
+    }
+    .MySkills1,.MySkills2,.Contact{
+        padding: 3em 5em 3em 5em;
+    }
+    .body{
+        font-size: small;
+    }
+    .MyName{
+        text-align: center;
+        position: absolute;
+        top: 15em;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .body{
+        font-size: small;
+    }
+    .MyName{
+        text-align: center;
+        position: absolute;
+        top: 10em;
+        left: 20%;
+        font-size: 0.8em;
+    }
+    .cloud2{
+        width: 5em;
+        float: left;
+        position: absolute;
+        left:20em ;
+        top: 18em;
+    }
+    .cloud1{
+        width: 5em;
+        float: right;
+        display: block;
+        position: absolute;
+        right: 20em;
+        top: 2.5em;
+    }
+    .MyHill{
+        width: 15em;
+        margin-top: 20em;
+    }
+    .MyImage{
+        width: 8em;
+    }
+    .intro{
+        background-color: rgba(240, 248, 255, 0.719);
+        padding: 3em;
+    }
+    .MySkills1,.MySkills2,.Contact{
+        background-color:  rgba(240, 248, 255, 0.719);
+        padding: 1em 2em 1em 2em;
+        text-align: left;
+    }
+    .FrontEnd{
+        width: 5em;
+        float: left;
+        margin: 1em;
+    }
+    .BackEnd{
+        width: 5em;
+        float: right;
+        margin: 1em;
+    }
+    h2,h4{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .cloud2{
+        width: 5em;
+        float: left;
+        position: absolute;
+        left:16em ;
+        top: 15em;
+    }
+    .cloud1{
+        width: 5em;
+        float: right;
+        display: block;
+        position: absolute;
+        right: 16em;
+        top: 3em;
+    } 
+    .MyName{
+        text-align: center;
+        position: absolute;
+        top: 17em;
+        left: 20%;
+        font-size: 0.5em;
+    }
+    .body{
+        font-size: small;
+    }
+    .NavLinks{
+        text-decoration: none;
+        float: right;
+        color: white;
+        padding: 0 0.5em;
+        
+    }
+    .WebName{
+        width: 1.5em;
+    }
+    nav{
+        padding: 1em 1em 1em 1em;
+        position: sticky;
+        top: 0em;
+        background-color: #00aab38f;
+        padding: 1em;
+        font-size: small;
+    
+    }
+    .MyHill{
+        width: 10em;
+        margin-top: 20em;
+    }
+    .FrontEnd{
+        width: 3em;
+        float: left;
+        margin: 1em;
+    }
+    .BackEnd{
+        width: 3em;
+        float: right;
+        margin: 1em;
+    }
+    .MyImage{
+        width: 5em;
+    }
+    h3{
+        font-size:x-large;
+    }
+    p{
+        font-size: xx-small;
+    }
+    h2,h4{
+        font-size: small;
+    }
+}
+
