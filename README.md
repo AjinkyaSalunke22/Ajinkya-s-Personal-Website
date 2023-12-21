@@ -2,10 +2,9 @@
 **Ajinkya's Personal Website 🌐**
 Welcome to my inaugural personal website, crafted with passion and creativity! 🚀
 
-Explore the site here:
+Explore the site here: https://ajinkyasalunke22.github.io/Ajinkya-s-Personal-Website/
 
 GitHub Pages: Ajinkya's Personal Website
-https://ajinkyasalunke22.github.io/Ajinkya-s-Personal-Website/
 Embark on a journey through my digital space and discover more about me! 🌟
 
 **Demo**
