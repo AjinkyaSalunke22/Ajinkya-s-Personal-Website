@@ -1,10 +1,12 @@
-# Ajinkya-s-Personal-Website
-This is my first personal website made by me.
 
-Link for the website.
+**Ajinkya's Personal Website 🌐**
+Welcome to my inaugural personal website, crafted with passion and creativity! 🚀
+
+Explore the site here:
+
+GitHub Pages: Ajinkya's Personal Website
 https://ajinkyasalunke22.github.io/Ajinkya-s-Personal-Website/
--
-https://ajinkyasalunke.netlify.app/
+Embark on a journey through my digital space and discover more about me! 🌟
 
 **Demo**
 ![Ajinkya's Personal Site_page-1](https://github.com/AjinkyaSalunke22/Ajinkya-s-Personal-Website/assets/114003751/697ef10e-8875-4500-8973-1ba5da0fdd62)
